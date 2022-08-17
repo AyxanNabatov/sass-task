@@ -1,0 +1,157 @@
+@import url(../../assets/sass/components/btn.scss)
+
+#navarea{
+    background-color: rgb(9, 9, 10);
+    
+    img{
+        width: 100%;
+        padding: 20px 0;
+        cursor: pointer;
+    }
+
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+        padding: 50px 0;
+
+        li{
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+            }
+
+            &:hover{
+                background-color: rgb(90, 47, 27);
+                color: rgb(9, 9, 10);
+            }
+        }
+    }
+}
+
+#head-menu{
+    background-color: white;
+    .col-5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+
+        .learn-more{
+            width: 200px;
+            height: 50px;
+            border-radius: rgb(51, 21, 10);
+            color: white;
+            font-weight: 700;
+
+            &:hover{
+                background-color: #282828;
+                color: rgb(9, 9, 10);
+            }
+        }
+    }
+
+    .col-7{
+        img{
+            padding: 20px 100px;
+        }
+    }
+}
+
+#cards{
+    padding: 70px;
+
+    .card{
+        padding: 30px;
+        border: 1px solid rgb(219, 104, 27);
+        border-radius: 5px;
+        box-shadow: #e6d70f;
+
+        img{
+            width: 100%;
+            padding: 10px;
+        }
+
+        .learn-more{
+            width: 150px;
+            height: 40px;
+            margin-top: 20px;
+            border-radius: 28px;
+            background-color: #282828;
+            color: rgb(9, 9, 10);
+            font-size: 18px;
+            font-weight: 700;
+
+            &:hover{
+                background-color: #282828;
+                color: rgb(9, 9, 10);
+            }
+        }
+    }
+}
+
+#foot{
+    background-color: rgb(9, 9, 10);
+    padding: 30px;
+    
+    .calendar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        i{
+            color: white;
+            font-size: 40px;
+        }
+        h6,
+        span{
+            color: white;
+        }
+    }
+
+    .about{
+        h3,
+        span,
+        p{
+            color: white;
+        }
+    }
+
+    .stay{
+        .socials{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px;
+            gap: 10px;
+            i{
+                color: white;
+                font-size: 20px;
+            }
+        }
+
+        h3,
+        h6{
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+            &:hover{
+                h6{
+                    color: brown;
+                }
+            }
+        }
+    }
+}
+
+#end{
+    text-align: center;
+    padding: 20px;
+}
